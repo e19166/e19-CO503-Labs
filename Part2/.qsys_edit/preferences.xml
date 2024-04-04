@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="207" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="133" />
+   <clocksource preferredWidth="132" />
+   <frequency preferredWidth="119" />
+  </columns>
+ </clocktable>
+ <window width="1920" height="1020" x="0" y="0" />
+ <library
+   expandedCategories="Library/Interface Protocols,Library/Bridges/Memory-Mapped,Library/Memories and Memory Controllers/External Memory Interfaces/SDRAM Interfaces,Library/PLL,Library/Bridges/Streaming,Library/Memories and Memory Controllers/External Memory Interfaces,Library/Peripherals,Library/Memories and Memory Controllers/External Memory Interfaces/RLDRAM II Interfaces,Library,Library/Interface Protocols/Serial,Project,Library/Memories and Memory Controllers,Library/Bridges,Library/Bridges and Adapters" />
+</preferences>

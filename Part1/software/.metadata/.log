@@ -1,0 +1,32 @@
+!SESSION 2024-03-21 15:45:05.303 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-21 15:47:15.369
+!MESSAGE Indexed 'counter_bsp' (82 sources, 113 headers) in 3.07 sec: 2,563 declarations; 4,252 references; 66 unresolved inclusions; 445 syntax errors; 318 unresolved names (4.46%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-21 15:47:17.371
+!MESSAGE Indexed 'counter' (0 sources, 13 headers) in 0.02 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-03-21 15:53:03.495
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x81038 --id=0x0 --timestamp=1710942803]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-03-21 15:53:07.561
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x81038 --id=0x0 --timestamp=1710942803 /cygdrive/d/AAApera/Sem6/CO503/Practicals/Practical1/Part1/software/counter/counter.elf]
+!SESSION 2024-03-21 16:03:12.881 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-03-21 16:08:45.034
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x81038 --id=0x0 --timestamp=1710942803]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-03-21 16:08:49.082
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x81038 --id=0x0 --timestamp=1710942803 /cygdrive/d/AAApera/Sem6/CO503/Practicals/Practical1/Part1/software/counter/counter.elf]
