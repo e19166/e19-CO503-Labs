@@ -1,0 +1,123 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:/Users/DELL/Documents/Academics/sem6/CO503/FPGA_CO503/Lab3/part1/ --output-directory=C:/Users/DELL/Documents/Academics/sem6/CO503/FPGA_CO503/Lab3/part1/SoC/ --report-file=bsf:C:/Users/DELL/Documents/Academics/sem6/CO503/FPGA_CO503/Lab3/part1/SoC.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/Users/DELL/Documents/Academics/sem6/CO503/FPGA_CO503/Lab3/part1/SoC.qsys
+Progress: Loading part1/SoC.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 12.1]
+Progress: Parameterizing module clk
+Progress: Adding cpu0 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding timer_0 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_0
+Progress: Adding ins_mem1 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module ins_mem1
+Progress: Adding cpu1 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu1
+Progress: Adding jtag_uart_1 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_1
+Progress: Adding timer_1 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_1
+Progress: Adding sysid [altera_avalon_sysid_qsys 12.1]
+Progress: Parameterizing module sysid
+Progress: Adding ins_mem0 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module ins_mem0
+Progress: Adding data_mem0 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem0
+Progress: Adding data_mem1 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem1
+Progress: Adding shared_mem [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module shared_mem
+Progress: Adding high_scale_timer_0 [altera_avalon_timer 12.1]
+Progress: Parameterizing module high_scale_timer_0
+Progress: Adding high_scale_timer_1 [altera_avalon_timer 12.1]
+Progress: Parameterizing module high_scale_timer_1
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SoC.ins_mem1: Memory will be initialized from ins_mem1.hex
+Info: SoC.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SoC.sysid: Time stamp will be automatically updated when this component is generated.
+Info: SoC.ins_mem0: Memory will be initialized from ins_mem0.hex
+Info: SoC.data_mem0: Memory will be initialized from data_mem0.hex
+Info: SoC.data_mem1: Memory will be initialized from data_mem1.hex
+Info: SoC.shared_mem: Memory will be initialized from shared_mem.hex
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:/Users/DELL/Documents/Academics/sem6/CO503/FPGA_CO503/Lab3/part1/ --output-directory=C:/Users/DELL/Documents/Academics/sem6/CO503/FPGA_CO503/Lab3/part1/SoC/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:C:/Users/DELL/Documents/Academics/sem6/CO503/FPGA_CO503/Lab3/part1/SoC.sopcinfo --report-file=html:C:/Users/DELL/Documents/Academics/sem6/CO503/FPGA_CO503/Lab3/part1/SoC.html --report-file=qip:C:/Users/DELL/Documents/Academics/sem6/CO503/FPGA_CO503/Lab3/part1/SoC/synthesis/SoC.qip --report-file=cmp:C:/Users/DELL/Documents/Academics/sem6/CO503/FPGA_CO503/Lab3/part1/SoC.cmp --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/Users/DELL/Documents/Academics/sem6/CO503/FPGA_CO503/Lab3/part1/SoC.qsys
+Progress: Loading part1/SoC.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 12.1]
+Progress: Parameterizing module clk
+Progress: Adding cpu0 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding timer_0 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_0
+Progress: Adding ins_mem1 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module ins_mem1
+Progress: Adding cpu1 [altera_nios2_qsys 12.1]
+Progress: Parameterizing module cpu1
+Progress: Adding jtag_uart_1 [altera_avalon_jtag_uart 12.1]
+Progress: Parameterizing module jtag_uart_1
+Progress: Adding timer_1 [altera_avalon_timer 12.1]
+Progress: Parameterizing module timer_1
+Progress: Adding sysid [altera_avalon_sysid_qsys 12.1]
+Progress: Parameterizing module sysid
+Progress: Adding ins_mem0 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module ins_mem0
+Progress: Adding data_mem0 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem0
+Progress: Adding data_mem1 [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module data_mem1
+Progress: Adding shared_mem [altera_avalon_onchip_memory2 12.1]
+Progress: Parameterizing module shared_mem
+Progress: Adding high_scale_timer_0 [altera_avalon_timer 12.1]
+Progress: Parameterizing module high_scale_timer_0
+Progress: Adding high_scale_timer_1 [altera_avalon_timer 12.1]
+Progress: Parameterizing module high_scale_timer_1
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SoC.ins_mem1: Memory will be initialized from ins_mem1.hex
+Info: SoC.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SoC.sysid: Time stamp will be automatically updated when this component is generated.
+Info: SoC.ins_mem0: Memory will be initialized from ins_mem0.hex
+Info: SoC.data_mem0: Memory will be initialized from data_mem0.hex
+Info: SoC.data_mem1: Memory will be initialized from data_mem1.hex
+Info: SoC.shared_mem: Memory will be initialized from shared_mem.hex
+Info: SoC: Generating SoC "SoC" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 15 modules, 71 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 33 modules, 138 connections
+Info: merlin_domain_transform: After transform: 66 modules, 349 connections
+Info: merlin_router_transform: After transform: 84 modules, 416 connections
+Info: merlin_traffic_limiter_transform: After transform: 86 modules, 424 connections
+Info: reset_adaptation_transform: After transform: 90 modules, 358 connections
+Info: merlin_network_to_switch_transform: After transform: 125 modules, 442 connections
+Info: limiter_update_transform: After transform: 125 modules, 444 connections
+Info: merlin_interrupt_mapper_transform: After transform: 127 modules, 450 connections
+Info: cpu0: Starting RTL generation for module 'SoC_cpu0'
+Info: cpu0:   Generation command is [exec C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/12.1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/12.1/quartus/sopc_builder/bin/europa -I C:/altera/12.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/12.1/quartus/sopc_builder/bin -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/12.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=SoC_cpu0 --dir=C:/Users/DELL/AppData/Local/Temp/alt9093_3571111739227048185.dir/0001_cpu0_gen/ --quartus_dir=C:/altera/12.1/quartus --verilog --config=C:/Users/DELL/AppData/Local/Temp/alt9093_3571111739227048185.dir/0001_cpu0_gen//SoC_cpu0_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: cpu0: # 2022.04.11 21:03:51 (*) Starting Nios II generation
+Info: cpu0: # 2022.04.11 21:03:51 (*)   Checking for plaintext license.
+Info: cpu0: # 2022.04.11 21:03:51 (*)   Plaintext license not found.
+Info: cpu0: # 2022.04.11 21:03:51 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu0: # 2022.04.11 21:03:52 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu0: # 2022.04.11 21:03:52 (*)   Elaborating CPU configuration settings
+Info: cpu0: # 2022.04.11 21:03:52 (*)   Creating all objects for CPU
+Info: cpu0: # 2022.04.11 21:03:52 (*)     Pipeline frontend
+Info: cpu0: # 2022.04.11 21:03:54 (*)   Generating RTL from CPU objects
+Info: cpu0: # 2022.04.11 21:03:56 (*)   Creating encrypted RTL
+Info: cpu0: # 2022.04.11 21:03:56 (*) Done Nios II generation
+Info: cpu0: Done RTL generation for module 'SoC_cpu0'
+Info: cpu0: "SoC" instantiated altera_nios2_qsys "cpu0"
+Error: Generation stopped, 119 or more modules remaining
+Info: SoC: Done SoC" with 39 modules, 14 files, 1006901 bytes
+Error: ip-generate failed with exit code 1: 1 Error, 0 Warnings
+Info: Stopping: Create HDL design files for synthesis

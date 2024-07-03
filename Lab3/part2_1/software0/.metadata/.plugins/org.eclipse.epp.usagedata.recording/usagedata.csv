@@ -1,0 +1,49 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,com.altera.sbtgui.launch,13.1.0.162,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1716293993365
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1716293993785
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1716293995743
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, /cygdrive/d/AAApera/Sem6/CO503/Practicals/Practical2/FPGA_CO503-main/FPGA_CO503-main/Lab3/part2_1/software0/producer/producer.elf] return code: 4, 'other error'",1716293999091
+error,log,,,"Downloading ELF Process failed",1716293999091
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716293999111
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716294002522
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716294006875
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716294122827
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1716294126643
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716294132548
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716294134589
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1716294134949
+activated,view,com.altera.sbtgui.launch,13.1.0.162,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1716294137301
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1716294137681
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1716294139303
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1716294139715
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, /cygdrive/d/AAApera/Sem6/CO503/Practicals/Practical2/FPGA_CO503-main/FPGA_CO503-main/Lab3/part2_1/software0/producer/producer.elf] return code: 4, 'other error'",1716294143022
+error,log,,,"Downloading ELF Process failed",1716294143022
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716294143042
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716294145554
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716294235035
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716294318507
+activated,view,com.altera.sbtgui.launch,13.1.0.162,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1716294321159
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1716294321529
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1716294323523
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, /cygdrive/d/AAApera/Sem6/CO503/Practicals/Practical2/FPGA_CO503-main/FPGA_CO503-main/Lab3/part2_1/software0/producer/producer.elf] return code: 4, 'other error'",1716294326811
+error,log,,,"Downloading ELF Process failed",1716294326811
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716294326831
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716294330534
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716294341985
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716294344017
+started,bundle,org.eclipse.cdt.mylyn.ui,3.6.0.v20110608-1400,"org.eclipse.cdt.mylyn.ui",1716294344117
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1716294344197
+stopped,bundle,org.eclipse.cdt.build.crossgcc,1.0.2.201202111925,"org.eclipse.cdt.build.crossgcc",1716294344448
+stopped,bundle,org.eclipse.cdt.codan.checkers.ui,1.0.0.201202111925,"org.eclipse.cdt.codan.checkers.ui",1716294344448
+stopped,bundle,com.altera.debug.cdi.gdb.plugin,13.1.0.162,"com.altera.debug.cdi.gdb.plugin",1716294344448
+stopped,bundle,com.altera.sbtgui.launch,13.1.0.162,"com.altera.sbtgui.launch",1716294344448
+stopped,bundle,com.altera.sbtgui.ui,13.1.0.162,"com.altera.sbtgui.ui",1716294344453
+stopped,bundle,com.altera.sbtgui.project,13.1.0.162,"com.altera.sbtgui.project",1716294344453
+stopped,bundle,org.eclipse.cdt.codan.checkers,1.0.1.201202111925,"org.eclipse.cdt.codan.checkers",1716294344453
+stopped,bundle,org.eclipse.cdt.codan.ui.cxx,2.0.0.201202111925,"org.eclipse.cdt.codan.ui.cxx",1716294344453
+stopped,bundle,org.eclipse.cdt.codan.core.cxx,1.0.0.201202111925,"org.eclipse.cdt.codan.core.cxx",1716294344453
+stopped,bundle,org.eclipse.cdt.launch.remote,2.3.0.201202111925,"org.eclipse.cdt.launch.remote",1716294344453
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.1.1.201202111925,"org.eclipse.cdt.debug.mi.ui",1716294344453
+stopped,bundle,com.altera.sbt4e.launch,13.1.0.162,"com.altera.sbt4e.launch",1716294344453
+stopped,bundle,org.eclipse.cdt.debug.mi.core,7.1.1.201202111925,"org.eclipse.cdt.debug.mi.core",1716294344453
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.memorybrowser,1.2.100.201202111925,"org.eclipse.cdt.debug.ui.memory.memorybrowser",1716294344458

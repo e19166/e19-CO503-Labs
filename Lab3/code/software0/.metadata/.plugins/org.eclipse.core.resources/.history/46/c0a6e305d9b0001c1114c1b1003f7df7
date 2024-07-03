@@ -1,0 +1,34 @@
+/*
+ * 	FIFO queue for shared memory communication between niosII processors
+ *
+ *  	DATE		: 19-08-2016
+ *      AUTHOR	: Isuru Nawinne
+*
+*	Structure of the FIFO:
+*	___________________________________________________________________________
+*	| 	full	| 	empty	| 	count		|	|	|	|	|	|	|	|	|
+*	| 	?	| 	?		| 	?		|	|	|	|	|	|	|	|	|
+*	___________________________________________________________________________
+*/
+
+
+#include "FIFO_1.h"
+
+void WRITE_FIFO_1(int *buffer)
+{
+
+}
+
+
+void READ_FIFO_1(int *buffer)
+{
+
+}
+
+//Initialization
+void FIFO_1_INIT()
+{
+	altera_avalon_fifo_init();
+
+
+}

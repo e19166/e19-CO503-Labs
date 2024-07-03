@@ -1,0 +1,46 @@
+/*
+ * 	FIFO queue for shared memory communication between niosII processors
+ *
+ *  	DATE		: 19-08-2016
+ *      AUTHOR	: Isuru Nawinne
+*
+*	Structure of the FIFO:
+*	___________________________________________________________________________
+*	| 	full	| 	empty	| 	count		|	|	|	|	|	|	|	|	|
+*	| 	?	| 	?		| 	?		|	|	|	|	|	|	|	|	|
+*	___________________________________________________________________________
+*/
+
+
+#include "FIFO_1.h"
+
+void WRITE_FIFO_1(int *buffer)
+{
+
+}
+
+void READ_FIFO_1(int *buffer)
+{
+
+}
+
+//Initialization
+void FIFO_1_INIT()
+{
+	altera_avalon_fifo_init();
+	/* 	address葉he base address of the FIFO control slave 			0x00031030
+		ienable葉he value to write to the interruptenable register
+		emptymark葉he value for the almost empty threshold level
+		fullmark葉he value for the almost full threshold level
+	 *
+	 *
+	 * */
+
+	altera_avalon_fifo_read_status();
+	/**
+	 * address葉he base address of the FIFO control slave
+	 * mask洋asks the read value from the status register
+	 *
+	 * */
+
+}
